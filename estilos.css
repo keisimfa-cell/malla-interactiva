@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff0f6;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #b83280;
+}
+
+.year {
+  margin-bottom: 30px;
+}
+
+.year h2 {
+  color: #a61e4d;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.subject {
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  background: #f8c7da;
+  color: #5c0033;
+  transition: all 0.3s ease;
+}
+
+.subject.locked {
+  background: #f3dce6;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.subject.approved {
+  background: #d6336c;
+  color: white;
+  font-weight: bold;
+}
