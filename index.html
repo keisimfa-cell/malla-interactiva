@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Malla Medicina</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
 
+<h1>Malla Interactiva Medicina</h1>
+
+<div class="year">
+<h2>Primer Año</h2>
+<div class="grid">
+<div id="anatomia" class="subject" onclick="toggleSubject('anatomia')">Anatomía Humana</div>
+<div id="histologia" class="subject" onclick="toggleSubject('histologia')">Histología</div>
+<div id="embriologia" class="subject" onclick="toggleSubject('embriologia')">Embriología</div>
+<div id="medsoc1" class="subject" onclick="toggleSubject('medsoc1')">Medicina social I</div>
+</div>
+</div>
+
+<div class="year">
+<h2>Segundo Año</h2>
+<div class="grid">
+<div id="fisiologia" class="subject locked">Fisiología</div>
+<div id="bioquimica" class="subject" onclick="toggleSubject('bioquimica')">Bioquímica</div>
+<div id="parasitologia" class="subject" onclick="toggleSubject('parasitologia')">Parasitología clínica</div>
+<div id="bacteriologia" class="subject" onclick="toggleSubject('bacteriologia')">Bacteriología clínica</div>
+<div id="medsoc2" class="subject locked">Medicina social II</div>
+</div>
+</div>
+
+<div class="year">
+<h2>Tercer Año</h2>
+<div class="grid">
+<div id="semiologia" class="subject" onclick="toggleSubject('semiologia')">Semiología</div>
+<div id="imagenes" class="subject" onclick="toggleSubject('imagenes')">Diagnóstico por imágenes</div>
+<div id="tecnicaqx" class="subject" onclick="toggleSubject('tecnicaqx')">Técnica quirúrgica</div>
+<div id="patqx" class="subject" onclick="toggleSubject('patqx')">Patología quirúrgica</div>
+<div id="fisiopatologia" class="subject locked">Fisiopatología</div>
+<div id="anatpat" class="subject locked">Anatomía patológica</div>
+<div id="saludmental1" class="subject" onclick="toggleSubject('saludmental1')">Salud mental I</div>
+</div>
+</div>
+
+<div class="year">
+<h2>Cuarto Año</h2>
+<div class="grid">
+<div id="cardiologia" class="subject">Cardiología</div>
+<div id="neumologia" class="subject">Neumología</div>
+<div id="nefrologia" class="subject">Nefrología</div>
+<div id="gastro" class="subject">Gastroenterología</div>
+<div id="endo" class="subject">Endocrinología</div>
+<div id="hemato" class="subject">Hematología</div>
+<div id="reuma" class="subject">Reumatología</div>
+<div id="cirugia" class="subject">Cirugía</div>
+<div id="uro" class="subject">Urología</div>
+<div id="saludmental2" class="subject locked">Salud mental II</div>
+<div id="medsoc3" class="subject locked">Medicina social III</div>
+</div>
+</div>
+
+<div class="year">
+<h2>Quinto Año</h2>
+<div class="grid">
+<div id="gine" class="subject">Ginecología</div>
+<div id="obst" class="subject">Obstetricia</div>
+<div id="pedia" class="subject">Pediatría</div>
+<div id="smi" class="subject">Salud materna infantil</div>
+<div id="nutri" class="subject">Nutrición</div>
+<div id="neuro" class="subject">Neurología</div>
+<div id="derma" class="subject">Dermatología</div>
+<div id="infecto" class="subject">Infectología</div>
+<div id="inmuno" class="subject">Inmunología</div>
+<div id="otorrino" class="subject">Otorrinolaringología</div>
+<div id="oftalmo" class="subject">Oftalmología</div>
+<div id="trauma" class="subject">Traumatología</div>
+<div id="legal" class="subject">Medicina legal</div>
+<div id="medsoc4" class="subject locked">Medicina social IV</div>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
